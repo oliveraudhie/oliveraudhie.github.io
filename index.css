@@ -5,3 +5,7 @@ a {
 a:hover {
   color: red;
 }
+
+h3, h4 {
+  color: blue;
+}
