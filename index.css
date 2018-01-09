@@ -1,17 +1,17 @@
 body {
-  font-family: arial
+  font-family: arial;
 }
 
 .size {
-  font-size: 20pt
+  font-size: 20pt;
 }
 
 .pt {
-  font-size: 10pt
+  font-size: 10pt;
 }
 
 .color {
-  color: red
+  color: red;
 }
 
 a {
@@ -24,4 +24,13 @@ a:hover {
 
 h3, h4 {
   color: blue;
+}
+
+.tembus {
+  width: 500px;
+  opacity: 0.1;
+}
+
+.wkwk {
+  width: 10%;
 }
