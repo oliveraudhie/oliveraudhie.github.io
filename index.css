@@ -1,38 +1,65 @@
-div {
-  background-image: url("./dorabat.jpg");
-  background-size: cover;
-}
-
-#grad {
-  background: repeating-radial-gradient(red, yellow 10%, green 15%);
-}
-
-body {
-  font-family: arial;
+.float {
+  display: flex;
+  justify-content: space-around;
 }
 
 h1 {
+  margin: auto;
+  padding-top: 50px;
+  max-width: 600px;
+  text-align: center;
+  font-size: 4rem;
   font-style: italic;
-  font-size: 20pt;
 }
 
-.color {
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center height: 180px;
+  border-radius: 50%;
+  position: center;
+  bottom: 0;
+}
+
+.fa {
+  padding: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 4px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+  background: blue;
+}
+
+a.url-fb:hover {
   color: blue;
+  background: white;
 }
 
-.opacity {
-  width: 500px;
-  opacity: 1;
+a.url-fb:visited {
+  color: ;
+  background: ;
 }
 
-a {
+.fa-instagram {
+  color: white;
+  background: blue;
+}
+
+a.url-ig:hover {
   color: blue;
+  background: white;
 }
 
-a:hover {
-  color: red;
-}
-
-.wkwk {
-  width: 10%;
+a.url-ig:visited {
+  color: ;
+  background: ;
 }
