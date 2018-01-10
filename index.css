@@ -3,6 +3,10 @@ div {
   background-size: cover;
 }
 
+#grad {
+  background: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
 body {
   font-family: arial;
 }
