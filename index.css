@@ -1,17 +1,24 @@
+div {
+  background-image: url("./dorabat.jpg");
+  background-size: cover;
+}
+
 body {
   font-family: arial;
 }
 
-.size {
+h1 {
+  font-style: italic;
   font-size: 20pt;
 }
 
-.pt {
-  font-size: 10pt;
+.color {
+  color: blue;
 }
 
-.color {
-  color: red;
+.opacity {
+  width: 500px;
+  opacity: 1;
 }
 
 a {
@@ -20,15 +27,6 @@ a {
 
 a:hover {
   color: red;
-}
-
-h3, h4 {
-  color: blue;
-}
-
-.tembus {
-  width: 500px;
-  opacity: 0.1;
 }
 
 .wkwk {
