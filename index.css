@@ -12,7 +12,7 @@ a {
 .float {
   content: 'Hi';
   position: absolute;
-  top: 20px;
+  top: 15px;
   right: -20px;
   background: #50505a;
   color: #fff;
@@ -25,7 +25,7 @@ a {
 
 .hello {
   position: absolute;
-  top: 40px;
+  top: 30px;
   right: -20px;
   background: black;
   color: #fff;
@@ -68,13 +68,13 @@ h2 {
   color: white;
 }
 
-.fa-facebook {
-  color: white;
-  background: blue;
+.fa-facebook-official {
+  color: blue;
+  background: white;
 }
 
 a.url-fb:hover {
-  color: blue;
+  color: black;
   background: white;
 }
 
@@ -84,8 +84,8 @@ a.url-fb:visited {
 }
 
 .fa-instagram {
-  color: white;
-  background: blue;
+  color: black;
+  background: white;
 }
 
 a.url-ig:hover {

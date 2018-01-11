@@ -7,7 +7,7 @@ a {
 .float {
   content: 'Hi';
   position: absolute;
-  top: 20px;
+  top: 15px;
   right: -20px;
   background: #50505a;
   color: #fff;
@@ -20,7 +20,7 @@ a {
 
 .contact {
   position: absolute;
-  top: 40px;
+  top: 30px;
   right: -20px;
   background: black;
   color: #fff;
