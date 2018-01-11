@@ -4,6 +4,11 @@ a {
   padding: 16px 4px 16px 40px;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
 .float {
   content: 'Hi';
   position: absolute;
