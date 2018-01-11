@@ -1,10 +1,40 @@
+a {
+  color: white;
+  text-decoration: none;
+  padding: 16px 4px 16px 40px;
+}
+
 .float {
-  display: flex;
-  justify-content: space-around;
+  content: 'Hi';
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  background: #50505a;
+  color: #fff;
+  width: 320px;
+  padding: -16px -4px -16px 0;
+  border-radius: 50px;
+  font-size: 15px;
+  box-shadow: 10px 10px 40px -14px #000
+}
+
+.contact {
+  position: absolute;
+  top: 40px;
+  right: -20px;
+  background: #50505a;
+  color: #fff;
+  width: 320px;
+  padding: -16px -4px -16px 0;
+  border-radius: 50px;
+  font-size: 15px;
+  box-shadow: 10px 10px 40px -14px #000;
+  text-align: center;
+  font-style: italic;
 }
 
 body {
-  background: #59ABE3;
+  background: white;
   margin: 0
 }
 
@@ -12,7 +42,7 @@ body {
   width: 340px;
   height: 440px;
   background: #e6e6e6;
-  border-radius: 8px;
+  border-radius: 6px;
   box-shadow: 0 0 40px -10px #000;
   margin: calc(50vh - 220px) auto;
   padding: 20px 30px;
@@ -81,7 +111,7 @@ div {
   color: #fff;
   width: 320px;
   padding: 16px 4px 16px 0;
-  border-radius: 6px;
+  border-radius: 50px;
   font-size: 13px;
   box-shadow: 10px 10px 40px -14px #000
 }
